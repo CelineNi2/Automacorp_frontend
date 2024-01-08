@@ -103,7 +103,7 @@ export default {
               `${API_HOST}/api/heaters`,
               {
                 name: this.name,
-                heaterStatus: 0.0,
+                heaterStatus: "OFF",
                 roomId: this.room,
               },
           );

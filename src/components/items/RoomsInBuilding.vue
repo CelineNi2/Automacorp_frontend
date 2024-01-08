@@ -12,12 +12,7 @@
 <script>
 export default {
   name: 'RoomsInBuilding',
-  props: ['room'],
-  computed: {
-    isRoomOpen: function() {
-      return this.room.roomStatus !== "CLOSED";
-    }
-  }
+  props: ['room']
 }
 </script>
 
